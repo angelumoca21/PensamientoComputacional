@@ -1,6 +1,6 @@
 # Pensamiento computacional
 
-### *Duración: 30 horas (15 sesiones [Lunes a jueves] y 8 sabatinas)*
+### *Duración: 30 horas (15 sesiones [Lunes a jueves] y 7 sabatinas)*
 
 ## Objetivo general
 
@@ -15,8 +15,8 @@ problemas aplicados a la vida real, mediante el uso de algoritmos, diagramas de 
 ## Temario 
 - [1.Introducción al pensamiento computacional](./1.IAPC.md)
 - [2.Algoritmos y resolución de problemas](./2.AYRDP.md)
-- [3.Estructuras de datos fundamentales]()
-- [4.Pensamiento lógico y condicionales]()
+- [3.Estructuras de datos fundamentales](./3.EDF.md)
+- [4.Pensamiento lógico y condicionales](./4.PLYC.md)
 - [5.Secuenciación y bucles]()
 - [6.Introducción a la programación]()
 - [7.Resolución de problemas prácticos]()
