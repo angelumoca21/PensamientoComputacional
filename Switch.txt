@@ -1,0 +1,103 @@
+Situacion:Pizzeria
+	3 opciones:
+		1.pizzas vegetariana
+			a.chaminones
+			b.pimientos	
+		2.pizzas no vegetariana
+			c.peperoni
+			d.jamon
+			e.mexicana
+		3.bebidas
+			f.refresco
+			g.agua
+
+0.Inicio
+1.Declarar:numero(entero) y letra(caracter)
+2.Preguntar por eleccion (Mostrar opciones)
+3.Elegir:
+	1-Mostrar ingredientes vegetarianos
+	  Preguntar el ingrediente
+	  Elegir:
+		a.champinones
+		  Mostrar texto de resumen de pidido.
+		b.pimientos
+		  Mostrar texto de resumen de pidido.
+		default-Mensaje de error
+	2-Mostrar ingredientes no vegetarianos
+	Preguntar el ingrediente
+	  Elegir:
+		c.peperoni
+		  Mostrar texto de resumen de pidido.
+		d.jamon
+		  Mostrar texto de resumen de pidido.
+		e.mexicana
+		  Mostrar texto de resumen de pidido.
+		default-Mensaje de error
+	3-Mostar bebidas
+		Preguntar la bebida
+	  Elegir:
+		f.refresco
+		  Mostrar texto de resumen de pidido.
+		g.agua
+		  Mostrar texto de resumen de pidido.
+		default-Mensaje de error
+	Dafaul-Mostrar mensaje de error.
+4.Fin
+
+
+Algoritmo tomaDeOrdenesPizzeria
+	Definir number Como Entero
+	Definir letra Como Caracter
+	Escribir "Bienvenido a la Pizzeria"
+	Escribir "Elige la opcion:"
+	Escribir "1.Vegetariana"
+	Escribir "2.No vegetariana"
+	Escribir "3.Bebidas"
+	Leer number
+	Segun number Hacer
+		1:
+			Escribir "Elige el ingrediente:"
+			Escribir "a.Champinon"
+			Escribir "b.Pimiento"
+			Leer letra
+			Segun letra Hacer
+				"a":
+					Escribir "Ordenaste una pizza vegetariana de champinon."
+				"b":
+					Escribir "Ordenaste una pizza vegetariana de pimiento."
+				De Otro Modo:
+					Escribir "Ingrediente no disponible"
+			Fin Segun
+		2:
+			Escribir "Elige el ingrediente:"
+			Escribir "c.Peperoni"
+			Escribir "d.Jamon"
+			Escribir "e.Mexicana"
+			Leer letra
+			Segun letra Hacer
+				"c":
+					Escribir "Ordenaste una pizza no vegetariana de peperoni."
+				"d":
+					Escribir "Ordenaste una pizza no vegetariana de jamon."
+				"e":
+					Escribir "Ordenaste una pizza no vegetariana mexicana."
+				De Otro Modo:
+					Escribir "Ingrediente no disponible"
+			Fin Segun
+		3:
+			Escribir "Elige la bebida:"
+			Escribir "f.Refresco"
+			Escribir "g.Agua"
+			Leer letra
+			Segun letra Hacer
+				"f":
+					Escribir "Ordenaste un refresco."
+				"g":
+					Escribir "Ordenaste agua."
+				De Otro Modo:
+					Escribir "Bibida no disponible"
+			Fin Segun
+		De Otro Modo:
+			Escribir "Opcion invalida."
+	Fin Segun
+FinAlgoritmo
