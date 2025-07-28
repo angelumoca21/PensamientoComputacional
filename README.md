@@ -19,6 +19,6 @@ problemas aplicados a la vida real, mediante el uso de algoritmos, diagramas de 
 - [4.Pensamiento lógico y condicionales](./4.PLYC.md)
 - [5.Secuenciación y bucles](./5.SYB.md)
 - [6.Introducción a la programación](./6.IALP.md)
-- [7.Resolución de problemas prácticos]()
-- [8.Proyecto final]()
+- [7.Resolución de problemas prácticos](./7.RDPP.md)
+- 8.Proyecto final
 
