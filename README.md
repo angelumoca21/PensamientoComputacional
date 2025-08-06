@@ -21,4 +21,3 @@ problemas aplicados a la vida real, mediante el uso de algoritmos, diagramas de 
 - [6.Introducción a la programación](./6.IALP.md)
 - [7.Resolución de problemas prácticos](./7.RDPP.md)
 - 8.Proyecto final
-
